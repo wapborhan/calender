@@ -1,11 +1,31 @@
+const d = new Date();
+const months = [
+  "01",
+  "02",
+  "03",
+  "04",
+  "05",
+  "06",
+  "07",
+  "08",
+  "09",
+  "10",
+  "11",
+  "12",
+];
+
+const year = d.getFullYear();
+const month = months[d.getMonth()];
+const day = d.getDate();
+const today = year + "-" + month + "-" + day + "T09:00";
+
 const meetings = [
   {
     id: 1,
-    name: "Leslie Alexander",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-    startDatetime: "2022-09-09T13:00",
-    endDatetime: "2022-05-11T14:30",
+    name: "Borhan Uddin",
+    imageUrl: "https://wapborhan.com/images/banner.jpg",
+    startDatetime: today,
+    endDatetime: "2022-09-10T11:30",
   },
   {
     id: 2,
