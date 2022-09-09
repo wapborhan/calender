@@ -8,7 +8,7 @@ export default function NavBar() {
       <div className="mx-auto justify-between px-4 md:flex md:items-center md:px-8 lg:max-w-6xl">
         <div>
           <div className="flex items-center justify-between py-3 md:block md:py-5">
-            <a href="/">
+            <a href="#">
               <h2 className="text-2xl font-bold text-white">SR Calender</h2>
             </a>
             <div className="md:hidden">
