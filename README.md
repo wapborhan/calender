@@ -1,43 +1,50 @@
-# CALENDER
+# SR Calendar - Schedule & Events
 
-## Screenshoot
-<a href="https://code.wapborhan.com/calender/">
->> Demo
-</a>
+A modern, responsive calendar and event scheduling application built with **React 19**, **Vite**, **Tailwind CSS v4**, and **Lucide Icons**.
 
-<br/>
-<a href="https://code.wapborhan.com/calender/">
-<img src="src/assets/images/Screenshot.png"/>
-</a>
+## Features
 
-## Available Scripts
+- 📅 **Interactive Calendar**: Navigate through months, select dates, jump to "Today", and view scheduled event indicators.
+- 🕒 **Date-wise Meeting View**: Inspect meetings for any selected day sorted chronologically with time ranges and participant avatars.
+- 📋 **All Meetings View**: Toggle into "All Meetings" to see all upcoming and past events grouped date-wise.
+- 💾 **Local Storage Persistence**: Create and cancel meetings on `localhost`, preserved seamlessly via browser `localStorage`.
+- ➕ **Add Meeting Modal**: Easily add new meetings with host names, topics, dates, start/end times, and customizable avatars.
+- 🔁 **Weekly & Monthly Recurring Schedules**: Schedule meetings to repeat weekly or monthly for configurable intervals (e.g. 2, 4, 8, 12 weeks/months) with recurring session badges and bulk series cancellation.
+- ✏️ **Smart Meeting Editing**: Edit a single day's session independently or update host, title, times, and avatar across an entire recurring series simultaneously.
+- 🗂️ **Multi-View Schedule Filter**: Switch between **Day**, **Week**, **Month**, and **All** schedule views with one click.
+- 🎨 **Modern UI**: Designed with glassmorphism, gradient accents, smooth transitions, and Lucide React icons.
 
-In the project directory, you can run:
+## Tech Stack
 
-### `npm start`
+- **Framework**: [React 19](https://react.dev/)
+- **Build Tool**: [Vite 8](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Date Utilities**: [date-fns v4](https://date-fns.org/)
+- **UI Primitives**: [@headlessui/react v2](https://headlessui.com/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 1. Install Dependencies
 
-### `npm test`
+```bash
+yarn
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 2. Start Development Server
 
-### `npm run build`
+```bash
+yarn dev
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 3. Build for Production
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+yarn build
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 4. Run ESLint
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
+```bash
+yarn lint
+```
